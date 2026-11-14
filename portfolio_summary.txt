@@ -1,0 +1,4 @@
+--- Portfolio Summary ---
+TSLA: 200 shares x $250 = $50000
+GOOGL: 1000 shares x $140 = $140000
+Total Investment Value: $190000
