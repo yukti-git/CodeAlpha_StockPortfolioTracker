@@ -1,5 +1,5 @@
 def stock_tracker():
-    # Hardcoded stock prices
+   
     stock_prices = {
         "AAPL": 180,
         "TSLA": 250,
@@ -41,7 +41,7 @@ def stock_tracker():
         print(f"{stock}: {qty} shares x ${stock_prices[stock]} = ${value}")
     print(f"Total Investment Value: ${total_investment}")
     
-    # Optional: Save result to a .txt file
+    
     save = input("\nDo you want to save this summary to a file? (yes/no): ").strip().lower()
     if save == "yes":
         with open("portfolio_summary.txt", "w") as file:
